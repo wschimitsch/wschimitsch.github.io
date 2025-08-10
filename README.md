@@ -2,6 +2,6 @@
 
 Hey, my name is Will Schimitsch, and this repo contains some HTML for my personal website. 
 
-You can find some information on my background, some projects I've worked on, and somethings I do in my free time. 
+There, you can find some information on my background, education and research, personal projects I've worked on, and some things I do in my free time. 
 
 Access the website [here](https://wschimitsch.github.io/).
