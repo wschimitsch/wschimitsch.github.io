@@ -13,18 +13,30 @@ a {
     color: deepskyblue;
     text-decoration: none;
 }
+.fs-heading {
+    font-size: 1.5rem;
+}
 @media (min-width: 1025px) {
     body {
         font-size: 1.25rem;
+    }
+    .fs-heading {
+        font-size: 1.5rem;
     }
 }
 @media (max-width: 1024px) and (min-width: 601px) {
     body {
         font-size: 1.1rem;
     }
+    .fs-heading {
+        font-size: 1.3rem;
+    }
 }
 @media (max-width: 600px) {
     body {
         font-size: 1rem;
+    }
+    .fs-heading {
+        font-size: 1.1rem;
     }
 }
