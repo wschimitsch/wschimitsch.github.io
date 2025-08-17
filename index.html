@@ -6,6 +6,7 @@
     <title>wschimitsch</title>
     <link rel="icon" type="image/x-icon" href="/img/human-greeting-variant.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 
     <style>
         body {
@@ -20,11 +21,16 @@
             margin-bottom: 0px;
         }
 
+        i {
+            color: white;
+        }
+
         .link-bare {
             color: white;
             text-decoration: none;
         }
 
+        
         /* .nav-link.active {
             background-color: black !important;
         } */
@@ -45,7 +51,15 @@
             <p>19 Drydock Ave</p>
             <p class="mb-4">Boston, MA 02210</p>
 
-            <p><a href="https://www.linkedin.com/in/william-schimitsch-3a4200225/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |  <a href="">Contact Me</a></p>
+            <p>
+                <a href="https://www.linkedin.com/in/william-schimitsch-3a4200225/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                   LinkedIn
+                </a> | 
+                <a href="">
+                    Contact Me
+                </a></p>
         </div>
 
     </div>
@@ -103,20 +117,79 @@
     </div>
 
     <div class="my-4 container"> 
-        <h4>Projects <a href=""><img height="30px" width="30px" src="img/human-greeting-variant.png" alt="GitHub"></a></h4>
+        <h4>Projects 
+            <a href="https://github.com/wschimitsch"
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+        </h4>
         
         <hr>
 
         <div class="ps-4">
-            <p class="fw-bold">zoning</p>
+            <!-- <p class="fw-bold">zoning
+                <a href="https://github.com/wschimitsch/zoning"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <i class="bi bi-git"></i>
+                </a>
+            </p> -->
 
-            <p class="fw-bold">running-calc</p>
+            <p class="fw-bold">running-calc
+                <a href="https://github.com/wschimitsch/running-calc"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <i class="bi bi-git"></i>
+                </a>
+                <ul class="ps-4">
+                    <li>Utility tool for running metrics and information.</li>
+                    <li>Calculate paces, splits, times, VO<sub>2</sub> max, and heart rate zones.</li>
+                    <li>Estimate equivalent race efforts.</li>
+                    <li>Built on top of python <a href="https://pypi.org/project/Pint/">Pint</a> module</li>
+                </ul>
+            </p>
 
-            <p class="fw-bold">chess</p>
+            <p class="fw-bold">chess
+                <a href="https://github.com/wschimitsch/chess"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <i class="bi bi-git"></i>
+                </a>
+                <ul class="pa-4">
+                    <li>Implementation of class chess using Java and Swing.</li>
+                    <li>Leverages Java's object-oriented programming to implement the board and pieces.</li>
+                    <li>Includes option for different time control or player color.</li>
+                    <li>TODO: finish checkmate implementation</li>
+                    <li>TODO: implement basic computer player and improve 2-player functionality (currently functions as more of a sandbox)</li>
+                </ul>
+            </p>
 
-            <p class="fw-bold">personal website</p>
+            <p class="fw-bold">ada-flight-sim
+                <a href="https://github.com/wschimitsch/ada-flight-sim"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <i class="bi bi-git"></i>
+                </a>
+                <ul class="pa-4">
+                    <li>Term project for Programming Languages course.</li>
+                    <li>Built to display and explore Ada's built-in features and capabilities.</li>
+                    <li>Dummy "flight simulator" that represents a critical system for schedulin flight landings/takeoffs.</li>
+                    <li>Key features include nested exceptions and functions, custom defined types, and object-oriented programming</li>
+                </ul>
+            </p>
 
-            <p class="fw-bold">ada-flight-sim</p>
+             <p class="fw-bold">personal-website
+                <a href="https://github.com/wschimitsch/wschimitsch.github.io"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <i class="bi bi-git"></i>
+                </a>
+                <ul class="pa-4">
+                    <li>Source HTML/JavaScript for this website!</li>
+                    <li>Uses Bootstrap for CSS styling.</li>
+                </ul>
+            </p>
         </div>
     </div>
 
@@ -183,7 +256,7 @@
                 <ul class="mb-4">
                     <li>Competed for the College of the Holy Cross in cross country 
                         <a class="link-bare" 
-                           href="" 
+                           href="https://patriotleague.org/" 
                            target="_blank" 
                            rel="noopener noreferrer">
                            (Patriot League)
@@ -198,18 +271,16 @@
                     <li>Placed 2nd* at the NEICAA (New England Intercollegiate Athletic Association) Indoor Track & Field Champtionships.</li>
                     <li>Best Performances</li>
                     <ul class="ps-4">
-                        <li>Cross Country - <b>5K</b>: 15:01, <b>8K</b>: 25:11, <b>10K</b>: 31:52</li>
-                        <li>Track - <b>1M</b>: 4:23, <b>3000m</b>: 8:26, <b>5000m</b>: 14:52, <b>10000m</b>: 31:46</li>
+                        <li>Cross Country - <b>5K</b>: 15:01, <b>8K</b>: 25:11, <b>10K</b>: 31:54</li>
+                        <li>Track - <b>1M</b>: 4:23, <b>3000m</b>: 8:26, <b>5000m</b>: 14:53, <b>10000m</b>: 31:46</li>
                     </ul>
                     <li>Other collegiate performances and information: 
-                        <a class="link-bare"
-                           href=""
+                        <a href="https://www.tfrrs.org/athletes/7928277/Holy_Cross/William_Schimitsch.html"
                            target="_blank"
                            rel="noopener noreferrer">
                            TFRRS,
                         </a>
-                        <a class="link-bare"
-                           href=""
+                        <a href="https://goholycross.com/sports/mens-cross-country/roster/william-schimitsch/15351"
                            target="_blank"
                            rel="noopener noreferrer">
                            Holy Cross Athletics
@@ -225,7 +296,7 @@
                 <ul class="mb-2">
                     <li>Competed for Regis High School 
                         <a class="link-bare"
-                           href=""
+                           href="https://www.chsaany.org/"
                            target="_blank"
                            rel="noopener noreferrer">(CHSAA)
                         </a> 
@@ -236,14 +307,12 @@
                     </ul>
                     <li>Ran 2 years of Varsity Cross Country and Track & Field.</li>
                     <li>High School personal bests and performances:
-                        <a class="link-bare"
-                           href=""
+                        <a href="https://ma.milesplit.com/athletes/7420835-william-schimitsch"
                            target="_blank"
                            rel="noopener noreferrer">
                            MileSplit,
                         </a>
-                        <a class="link-bare"
-                           href=""
+                        <a href="https://www.athletic.net/athlete/19036197/cross-country/"
                            target="_blank"
                            rel="noopener noreferrer">
                            Athletic.net
