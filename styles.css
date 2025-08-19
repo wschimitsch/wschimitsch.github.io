@@ -1,42 +1,34 @@
-body {
-    /* background-color: #3f3f3f;
-    color: white; */
-    font-family: 'Times New Roman', serif;
-    font-size: 1.25rem;
-    line-height: 1.5;
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
 }
-p {
-    margin-top: 0;
-    margin-bottom: 0;
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
 }
-a {
-    color: deepskyblue;
-    text-decoration: none;
+.gallery img {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
-.fs-heading {
-    font-size: 1.5rem;
+.gallery img.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
-@media (min-width: 1025px) {
-    body {
-        font-size: 1.25rem;
-    }
-    .fs-heading {
-        font-size: 1.5rem;
-    }
+img {
+    height: 100%;
+    width: 100%;
 }
-@media (max-width: 1024px) and (min-width: 601px) {
-    body {
-        font-size: 1.1rem;
-    }
-    .fs-heading {
-        font-size: 1.3rem;
+@media (max-width: 992px) { /* tablets */
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 }
-@media (max-width: 600px) {
-    body {
-        font-size: 1rem;
-    }
-    .fs-heading {
-        font-size: 1.1rem;
+@media (max-width: 576px) { /* phones */
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
 }
