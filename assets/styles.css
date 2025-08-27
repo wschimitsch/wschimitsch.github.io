@@ -34,9 +34,14 @@ img {
 } */
  
 body {
-    font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Host Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
     background-color: whitesmoke;
 }
+
+
+
 /* a {
     color: white !important;
 } */
@@ -46,6 +51,7 @@ body {
 } */
 
 .navbar {
+    font-weight: 500;
     background-color: rgba(255, 255, 255, 0.15) !important;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -53,8 +59,11 @@ body {
 .content {
     padding-top: 4rem;
     /* padding-bottom: 2rem; */
-    padding-left: 9rem;
-    padding-right: 9rem;
+    padding-left: 17.5rem;
+    padding-right: 17.5rem;
+
+    
+    text-align: justify; /* aligns ends at the same x-position */
 }
 .gallery {
     column-count: 3;
@@ -82,9 +91,11 @@ body {
   object-fit: cover;
 }
 .carousel-caption {
-    font-family: "Cormorant Garamond", serif;
     top: 60%;
     transform: translateY(-60%);
+}
+.carousel-caption h1 {
+    font-family: "Cormorant Garamond", serif;
 }
 
 
