@@ -3,9 +3,12 @@ body {
     font-family: "Host Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
-    
+    background-color: beige;
 }
 
+.container-fluid {
+    background-color: beige !important;
+}
 
 
 .navbar {
