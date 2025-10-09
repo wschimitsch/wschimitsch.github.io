@@ -20,5 +20,3 @@ window.addEventListener("scroll", () => {
         }
     }
 });
-
-console.log(nav.classList);

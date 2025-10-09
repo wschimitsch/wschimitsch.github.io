@@ -2,11 +2,15 @@ body {
     font-family: "Host Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
-    background-color: beige;
+    background-color: #969696;
+}
+
+h1 {
+    font-family: "Cormorant Garamond", serif;
 }
 
 .container-fluid {
-    background-color: beige !important;
+    background-color: #969696 !important;
 }
 
 .navbar {
@@ -17,7 +21,7 @@ body {
 }
 
 .content {   
-    text-align: justify; /* aligns ends at the same x-position */
+    text-align: center; /* aligns ends at the same x-position */
 }
 
 .gallery {
@@ -44,12 +48,18 @@ body {
 
 .img-left {
     width: 90%;
-    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
 }
 
 .img-right {
     width: 90%;
-    margin-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
 }
 
 .img-fade img { 
@@ -89,10 +99,6 @@ body {
 .carousel-caption {
     top: 60%;
     transform: translateY(-60%);
-}
-
-.carousel-caption h1 {
-    font-family: "Cormorant Garamond", serif;
 }
 
 .gallery-picture {
