@@ -1,4 +1,4 @@
-const images = document.querySelectorAll('.img-fade img');
+const images = document.querySelectorAll('.img-fade img, .text-fade');
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
