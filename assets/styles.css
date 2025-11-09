@@ -7,7 +7,7 @@
 
 body {
     font-family: "Cormorant Garamond", sebrif;
-    background-color: white;
+    background-color: white !important;
 }
 
 input[type="date"]:invalid {
@@ -24,6 +24,10 @@ select:invalid {
 
 option {
 	color: black;
+}
+
+.section {
+    background-color: white !important;
 }
 
 .container-fluid {
@@ -45,6 +49,7 @@ option {
     margin-top: 2rem;
     column-count: 3;
     column-gap: 1rem;
+    background-color: white !important;
 }
 
 .gallery img {
