@@ -1,12 +1,13 @@
-body {
+/* body {
     font-family: "Host Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
-    background-color: #969696;
-}
+   
+} */
 
-h1 {
+body {
     font-family: "Cormorant Garamond", sebrif;
+    background-color: white;
 }
 
 input[type="date"]:invalid {
@@ -26,7 +27,7 @@ option {
 }
 
 .container-fluid {
-    background-color: #969696 !important;
+    background-color: white !important;
 }
 
 .navbar {
@@ -117,8 +118,8 @@ option {
 
 .portrait {
     position: absolute;
-    bottom: -50%;           /* overlaps 50px below the heading */
-    left: 50%;               /* horizontally center */
+    top: 60%;
+    left: 50%;
     transform: translateX(-50%);
     max-width: 50%;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);

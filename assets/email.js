@@ -7,7 +7,7 @@
 window.onload = function() {
     document.getElementById('contact-form').addEventListener('submit', function(event) {
         event.preventDefault();
-        emailjs.sendForm('service_gr3jgrn', 'template_zvua5g9', this)
+        emailjs.sendForm('service_gr9n329', 'template_wr35zn6', this)
             .then(() => {
                 console.log('Email Sent! Success.');
                 showAlert("Email sent successfully!", "success");

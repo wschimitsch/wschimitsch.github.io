@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
@@ -34,12 +35,15 @@
                 </li>
             </ul>
         </div>
-    </nav>        
+    </nav>
 
-    <div class="heading-img section bg-light" style="margin-bottom: 50vh;">
-       <img class="d-block w-100" src="assets/images/IMG_7072.JPG">
+    <div class="heading-img section bg-light text-center" style="margin-bottom: 60vh;">
+        <img class="d-block w-100" src="/assets/images/IMG_7072.JPG" alt="Header Image">
+        <div class="position-absolute top-50 start-50 translate-middle text-light">
+            <h1 class="display-5 fw-bold">About Me</h1>
+        </div>
 
-       <img class="portrait" src="assets/images/IMG_6760.JPG" alt="Portrait image">
+        <img class="portrait" src="assets/images/IMG_6760.JPG" alt="Portrait image">
     </div>
 
     <div class="container-fluid content section bg-light h4">
@@ -74,8 +78,39 @@
         </div>
     </div>
     
-    
+    <footer class="bg-dark text-light pt-4 pb-3 mt-5">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled d-flex flex-wrap gap-3 small mb-0">
+                        <li><a href="/index.html" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="/about.html" class="text-light text-decoration-none">About</a></li>
+                        <li><a href="/gallery/gallery.html" class="text-light text-decoration-none">Gallery</a></li>
+                        <li><a href="/contact.html" class="text-light text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
 
+                <!-- Contact -->
+                <div class="col mb-3">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled small">
+                    <li><i class="bi bi-envelope me-2"></i> laurentclarkphotography@gmail.com</li>
+                    <li><i class="bi bi-geo-alt me-2"></i> Morris County, NJ</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="border-secondary">
+
+            <div class="text-center small">
+                <p>&copy; <span id="year"></span> Lauren T. Clark Photography</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
     <script src="/assets/animation.js"></script>
     <script src="/assets/navbar.js"></script>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
