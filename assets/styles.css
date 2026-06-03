@@ -168,3 +168,9 @@ option {
 @media (max-width: 480px) {
     .gallery { column-count: 1; }
 }
+
+.home .container-fluid .row {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
